@@ -1,0 +1,31 @@
+body {
+  background-image: url(https://img.huffingtonpost.com/asset/5dcc613f1f00009304dee539.jpeg?cache=QaTFuOj2IM&ops=crop_834_777_4651_2994%2Cscalefit_720_noupscale);
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+.block {
+  width: 800px;
+  height: 800px;
+  border: 3px solid #999;
+  margin: 32px auto;
+
+  /* Работа с фоном */
+  background:
+    left center/150px url(https://img.huffingtonpost.com/asset/5dcc613f1f00009304dee539.jpeg?cache=QaTFuOj2IM&ops=crop_834_777_4651_2994%2Cscalefit_720_noupscale) no-repeat,
+    url(../img/icon-lamp.png) no-repeat center/75px;
+}
+
+.message-info {
+  font-size: 24px;
+  background-color: #ffb2b2;
+  padding: 20px;
+  padding-left: 90px;
+  margin: 16px;
+  background-image: url(../img/icon-lamp.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 20px center;
+  border-radius: 5px 15px 45px 25%;
+}

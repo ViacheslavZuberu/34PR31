@@ -1,0 +1,24 @@
+body {
+  background-color: #6cbefd;
+}
+
+h2 {
+  color: #0fc70f;
+}
+
+p {
+  color: #f00;
+  background-color: rgb(255, 255, 0);
+  font-style: italic;
+}
+
+.some-paragraph {
+  color: #00f;
+  text-shadow: 0 0 5px #000;
+}
+
+#my-stuff {
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+}
