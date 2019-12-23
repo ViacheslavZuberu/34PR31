@@ -1,0 +1,12 @@
+a:visited {
+  color: #46b3a9;
+}
+
+a:active {
+  color: #ff9100;
+}
+
+a:link {
+  color: #deff20;
+  text-decoration: none;
+}
