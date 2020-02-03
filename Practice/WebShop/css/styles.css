@@ -1,0 +1,85 @@
+html,
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+}
+
+.site-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+.site-title > h1 {
+    color: #eee;
+    font-size: 5rem;
+    text-shadow: 0 0 5px #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #00000080;
+}
+
+.menu-element {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1rem 2rem;
+    margin-right: 2.5rem;
+}
+
+.menu-element:hover {
+    background-color: #000000a0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 2em;
+}
+
+.sidebar > h2 {
+    margin-bottom: 1em;
+    color: #646886;
+}
+
+.sidebar > ul {
+    font-size: 1.5em;
+    padding-left: 1rem;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #eee;
+    padding: 2em;
+    width: 80%;
+}
+
+.item {
+    width: 300px;
+    margin-bottom: 2em;
+    background-color: #fff;
+}
+
+.item > img {
+    width: 100%;
+}
+
+.description {
+    padding: 1rem;
+}
