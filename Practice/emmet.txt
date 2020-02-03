@@ -1,0 +1,4 @@
+1) .items
+
+(.item>img[src="img/pict-$.jpg" alt="Item #$"]+.description>h2>lorem2^p>lorem4+{...}^.price>{$}^button>{Buy})*5
+
