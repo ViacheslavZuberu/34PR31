@@ -146,6 +146,10 @@ body {
     margin-bottom: .5em
 }
 
+.panel>iframe {
+    width: 600px;
+}
+
 .copyright-footer {
     background-color: #111111;
     color: #fff;
@@ -190,6 +194,10 @@ body {
     }
 
     .panel {
+        width: 100%;
+    }
+
+    .panel>iframe {
         width: 100%;
     }
 
