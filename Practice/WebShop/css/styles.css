@@ -153,3 +153,47 @@ body {
     text-align: center;
     padding: 1em;
 }
+
+/* Mobile */
+@media only screen and (max-width: 720px) {
+
+    .site-title>h1 {
+        text-align: center;
+    }
+
+    .menu {
+        flex-flow: column nowrap;
+        background-color: #0087ee9d;
+    }
+
+    .menu-element {
+        margin: 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .items {
+        width: 100%;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .item {
+        width: 95%;
+    }
+
+    .footer {
+        height: auto;
+        flex-flow: column nowrap;
+    }
+
+    .panel {
+        width: 100%;
+    }
+
+    .panel-contacts {
+        padding: 1.5rem 0;
+    }
+}
